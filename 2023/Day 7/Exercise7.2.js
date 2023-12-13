@@ -49,7 +49,7 @@ function getHandType(hand) {
     const cardToCount  = getCardCounts(hand)
     let countOfThrees = 0
     let countsOfTwos = 0
-    for (const [_, value] of Object.entries(cardToCount)) {
+    for (const value of Object.values(cardToCount)) {
         switch(value){
             case 5: return handTypes['Five of a kind']
             case 4: return handTypes['Four of a kind']
