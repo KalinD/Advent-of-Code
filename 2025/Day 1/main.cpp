@@ -1,8 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-// 6046
-// 6603
+
 int main() {
     unsigned short zeroPassCount = 0U;
     unsigned short zeroCount = 0U;
